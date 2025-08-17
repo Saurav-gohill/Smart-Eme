@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -62,7 +63,7 @@ public class EmailGeneratorService {
                     .get(0)
                     .path("text")
                     .asText();
-        } catch (Exception e) {
+        } catch (JsonProcessingException e) {
             return "Error processing request: " + e.getMessage();
         }
     }

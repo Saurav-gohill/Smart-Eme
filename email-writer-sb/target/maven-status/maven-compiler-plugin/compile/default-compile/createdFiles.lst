@@ -1,0 +1,5 @@
+com\example\writer\app\EmailGeneratorController.class
+com\example\writer\EmailWriterSbApplication.class
+com\example\writer\app\EmailRequest.class
+com\example\writer\app\EmailGeneratorService.class
+com\example\writer\config\WebClientConfig.class
