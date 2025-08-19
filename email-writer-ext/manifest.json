@@ -24,5 +24,10 @@
   ],
     "action": {
       "default_title": "Email Writer Assitant"
+    },
+    "icons": {
+      "25": "email.png",
+      "48": "email.png",
+      "128": "email.png"
     }
   }
