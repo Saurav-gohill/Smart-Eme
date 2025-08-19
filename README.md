@@ -61,8 +61,9 @@ To test the application, follow these steps:
 
 **Screenshots**
 -------------
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/0a951a09-47f7-4691-97e7-d868cf0411bc" />
 
-[Insert screenshots of the application]
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/b4add4e0-13d4-4a13-bb98-0ab1a8744e12" />
 
 **API Reference**
 ----------------
